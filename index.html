@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Click Dare: Bait or Not?</title>
+<meta name="description" content="A trick-instruction game for iPhone and iPad. Every level gives you one instruction. Do exactly what it says, or die.">
+<link rel="icon" href="/icon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  :root { --bg: #0d0f14; --panel: #151821; --text: #e9ecf4; --dim: #8a92a6; --gold: #ffcc55; --red: #ff4d5e; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: var(--bg); color: var(--text); font: 17px/1.6 'Segoe UI', system-ui, -apple-system, sans-serif; display: flex; flex-direction: column; }
+  main { flex: 1; max-width: 640px; width: 100%; margin: 0 auto; padding: 64px 16px 48px; text-align: center; }
+  .icon { width: 128px; height: 128px; border-radius: 28px; box-shadow: 0 12px 40px rgba(255, 77, 94, 0.25); }
+  h1 { font-size: 44px; line-height: 1.1; margin: 24px 0 4px; font-weight: 900; letter-spacing: 0.5px; }
+  .sub { color: var(--gold); font-weight: 800; font-size: 22px; margin: 0 0 28px; }
+  .pitch { font-size: 20px; margin: 0 0 32px; }
+  .lies { background: var(--panel); border-radius: 16px; padding: 20px; margin: 0 0 32px; }
+  .lies p { margin: 4px 0; color: var(--dim); }
+  .lies p.truth { color: var(--text); font-weight: 700; }
+  .soon { display: inline-block; border: 2px solid var(--gold); color: var(--gold); border-radius: 999px; padding: 8px 20px; font-weight: 700; }
+  footer { text-align: center; color: var(--dim); font-size: 15px; padding: 24px 16px 40px; }
+  footer a { color: var(--dim); margin: 0 10px; }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="/icon.png" alt="Click Dare icon: a red button">
+  <h1>Click Dare</h1>
+  <p class="sub">Bait or Not?</p>
+  <p class="pitch">Every level gives you one instruction.<br>Do exactly what it says, or die.</p>
+  <div class="lies">
+    <p>The buttons lie. The labels lie. The pop-ups lie.</p>
+    <p class="truth">The instruction never does.</p>
+  </div>
+  <span class="soon">Coming soon to iPhone and iPad</span>
+</main>
+<footer>
+  <a href="/privacy/">Privacy</a> · <a href="/support/">Support</a>
+  <p>© 2026 Charbel Nasrani</p>
+</footer>
+</body>
+</html>
